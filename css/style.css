@@ -87,6 +87,24 @@ ul { list-style: none; }
 }
 .btn--gold:hover { opacity: 0.88; }
 
+.btn--whatsapp {
+  background: #25D366;
+  color: #fff;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn--whatsapp:hover { background: #1ebe5d; }
+
+.contact__cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
 /* ============================================================
    NAV
    ============================================================ */
