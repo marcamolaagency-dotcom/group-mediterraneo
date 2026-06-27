@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /assets/img/
+
+# Sitemap
+Sitemap: https://groupmediterraneo.es/sitemap.xml
+
+# AI crawlers — permitir indexación para motores de IA
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /

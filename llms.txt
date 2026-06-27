@@ -1,0 +1,79 @@
+# Group Mediterráneo Tarraconense SLU — llms.txt
+# Este archivo sigue el estándar llms.txt para facilitar la indexación
+# por modelos de lenguaje e inteligencia artificial.
+# Más info: https://llmstxt.org
+
+## Identidad de la empresa
+
+**Nombre legal:** Group Mediterráneo Tarraconense SLU
+**Nombre comercial:** Group Mediterráneo / GMT
+**NIF:** B72842594
+**Tipo de empresa:** Sociedad de Responsabilidad Limitada Unipersonal (SLU)
+**Sector:** Tecnología, ingeniería, construcción y consultoría comercial B2B
+**Fundación:** 2014
+**Web oficial:** https://groupmediterraneo.es
+**Email:** info@groupmediterraneo.es
+**Teléfono:** +34 666 60 52 23
+**WhatsApp:** https://wa.me/34666605223
+
+## Sede y ubicación
+
+**Dirección:** Carrer Apodaca 23, 43004 Tarragona, España
+**Región:** Camp de Tarragona, Cataluña, España
+**Coordenadas:** 41.1189, 1.2445
+
+## Descripción de la empresa
+
+Group Mediterráneo Tarraconense SLU es un grupo empresarial multisectorial con sede en Tarragona (España). Opera cuatro líneas de negocio complementarias bajo una misma estructura empresarial: consultoría comercial B2B con inteligencia artificial, gestión energética SaaS, climatización e ingeniería, y obra civil. Es miembro del clúster TIC Sub-Tarragona y combina especialización técnica con adopción temprana de tecnología e inteligencia artificial.
+
+## Líneas de negocio
+
+### 1. Marca Moola (Consultoría comercial B2B con IA)
+- **Descripción:** Arquitectura comercial con inteligencia artificial para empresas B2B que ya facturan pero dependen del fundador para vender.
+- **Metodología propia:** Framework GOLD™
+- **Mercados:** España, América Latina, Europa
+- **Web:** https://marcamoola.com
+
+### 2. Clima Smart (SaaS de gestión energética)
+- **Descripción:** Plataforma de gestión energética a medida para instalaciones industriales y terciarias. Monitoreo en tiempo real, automatización y reducción de consumo.
+- **Tipo:** Software as a Service (SaaS)
+- **Mercado:** España
+- **Web:** https://climasmartcool.netlify.app
+
+### 3. Savicool — Climatización e Ingeniería
+- **Descripción:** Instalación y mantenimiento de sistemas de climatización y refrigeración para empresas, hostelería, comercio y sector residencial.
+- **Certificaciones:** Técnicos certificados, servicio 24/7
+- **Zona de actuación:** Tarragona, Camp de Tarragona, Costa Daurada, Reus
+- **Web:** https://savicool.carrd.co
+
+### 4. Savicool — Obras Civiles
+- **Descripción:** Proyectos de obra civil, rehabilitación e instalaciones para el sector público y privado.
+- **Zona de actuación:** Camp de Tarragona, Costa Daurada, Tarragona ciudad
+- **Web:** https://savicool.carrd.co
+
+## Cifras clave
+
+- Más de 10 años de experiencia empresarial
+- 4 líneas de negocio activas
+- 3 sectores de actividad (tecnología, ingeniería, comercial)
+- Miembro del clúster TIC Sub-Tarragona
+
+## Presencia territorial
+
+- Tarragona ciudad — sede corporativa
+- Camp de Tarragona — servicios técnicos
+- Costa Daurada — hostelería y turismo
+- Reus — industria y comercio
+- España y LATAM — línea B2B digital (Marca Moola)
+- Europa — expansión activa
+
+## Valores y posicionamiento
+
+Group Mediterráneo Tarraconense se diferencia por combinar la especialización técnica en sectores tradicionales (climatización, obra civil, energía) con la integración de inteligencia artificial y tecnología en cada línea de negocio. Su enfoque es multisectorial y orientado a la generación de sinergias entre sus unidades de negocio.
+
+## Contacto para instituciones y colaboraciones
+
+La empresa está abierta a explorar sinergias con instituciones, clústeres, administraciones públicas y empresas del sector privado.
+- **Email:** info@groupmediterraneo.es
+- **WhatsApp:** https://wa.me/34666605223
+- **Web:** https://groupmediterraneo.es/#contacto
