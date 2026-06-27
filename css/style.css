@@ -128,34 +128,10 @@ ul { list-style: none; }
   gap: 10px;
   text-decoration: none;
 }
-.nav__logo-mark {
-  width: 36px;
-  height: 36px;
-  background: var(--navy);
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--gold);
-  letter-spacing: 0.5px;
-  flex-shrink: 0;
-}
-.nav__logo-name {
+.nav__logo-img {
+  height: 44px;
+  width: auto;
   display: block;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-main);
-  line-height: 1.2;
-}
-.nav__logo-sub {
-  display: block;
-  font-size: 10px;
-  font-weight: 400;
-  color: var(--text-muted);
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
 }
 .nav__links {
   display: flex;
