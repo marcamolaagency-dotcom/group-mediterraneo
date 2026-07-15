@@ -283,7 +283,7 @@ ul { list-style: none; }
   background-size: 320px 320px;
   background-repeat: no-repeat;
   mix-blend-mode: multiply;
-  opacity: 0.11;
+  opacity: 0.22;
   will-change: transform;
   transition: transform 0.65s cubic-bezier(0.34, 1.12, 0.64, 1),
               opacity  0.35s ease;
@@ -294,15 +294,15 @@ ul { list-style: none; }
 .logo-3d__piece--br { top: 160px; left: 160px; background-position: -160px -160px; }
 
 /* Gear split on hover */
-.logo-3d.is-hovered .logo-3d__piece--tl { transform: translate(-28px,-28px) rotate(-8deg); opacity: 0.3; }
-.logo-3d.is-hovered .logo-3d__piece--tr { transform: translate( 28px,-28px) rotate( 8deg); opacity: 0.3; }
-.logo-3d.is-hovered .logo-3d__piece--bl { transform: translate(-28px, 28px) rotate( 8deg); opacity: 0.3; }
-.logo-3d.is-hovered .logo-3d__piece--br { transform: translate( 28px, 28px) rotate(-8deg); opacity: 0.3; }
+.logo-3d.is-hovered .logo-3d__piece--tl { transform: translate(-28px,-28px) rotate(-8deg); opacity: 0.5; }
+.logo-3d.is-hovered .logo-3d__piece--tr { transform: translate( 28px,-28px) rotate( 8deg); opacity: 0.5; }
+.logo-3d.is-hovered .logo-3d__piece--bl { transform: translate(-28px, 28px) rotate( 8deg); opacity: 0.5; }
+.logo-3d.is-hovered .logo-3d__piece--br { transform: translate( 28px, 28px) rotate(-8deg); opacity: 0.5; }
 
 /* Idle pulse */
 @keyframes logo-pulse {
-  0%, 100% { opacity: 0.11; }
-  50%       { opacity: 0.17; }
+  0%, 100% { opacity: 0.22; }
+  50%       { opacity: 0.32; }
 }
 .logo-3d__piece { animation: logo-pulse 5s ease-in-out infinite; }
 
