@@ -99,8 +99,8 @@
     if (!THREE) return;
 
     var hero = document.getElementById('inicio');
-    var W    = canvas.offsetWidth  || window.innerWidth;
-    var H    = canvas.offsetHeight || window.innerHeight;
+    var W    = window.innerWidth;
+    var H    = window.innerHeight;
 
     /* Renderer */
     var renderer;
@@ -291,8 +291,8 @@
 
     /* Resize */
     window.addEventListener('resize', function () {
-      W = canvas.offsetWidth;
-      H = canvas.offsetHeight;
+      W = window.innerWidth;
+      H = window.innerHeight;
       camera.aspect = W / H;
       camera.updateProjectionMatrix();
       renderer.setSize(W, H);
