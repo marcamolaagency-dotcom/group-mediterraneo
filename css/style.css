@@ -244,6 +244,80 @@ ul { list-style: none; }
 .nav__burger[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
 
 /* ============================================================
+   3D LOGO HERO
+   ============================================================ */
+.logo-3d {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -54%);
+  width: 340px;
+  height: 340px;
+  z-index: 0;
+  perspective: 900px;
+  cursor: crosshair;
+}
+.logo-3d__scene {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  will-change: transform;
+  transition: transform 0.1s ease-out;
+}
+.logo-3d__canvas {
+  position: absolute;
+  top: -70px; left: -70px;
+  width: calc(100% + 140px);
+  height: calc(100% + 140px);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.logo-3d.is-hovered .logo-3d__canvas { opacity: 1; }
+
+.logo-3d__piece {
+  position: absolute;
+  width: 50%; height: 50%;
+  overflow: hidden;
+  will-change: transform;
+  transition: transform 0.65s cubic-bezier(0.34, 1.12, 0.64, 1);
+}
+.logo-3d__piece img {
+  position: absolute;
+  width: 200%; height: 200%;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 0.1;
+  transition: opacity 0.4s ease;
+  display: block;
+}
+.logo-3d__piece--tl { top: 0; left: 0; }
+.logo-3d__piece--tl img { top: 0; left: 0; }
+.logo-3d__piece--tr { top: 0; right: 0; }
+.logo-3d__piece--tr img { top: 0; left: -100%; }
+.logo-3d__piece--bl { bottom: 0; left: 0; }
+.logo-3d__piece--bl img { top: -100%; left: 0; }
+.logo-3d__piece--br { bottom: 0; right: 0; }
+.logo-3d__piece--br img { top: -100%; left: -100%; }
+
+/* Gear split on hover */
+.logo-3d.is-hovered .logo-3d__piece--tl { transform: translate(-26px, -26px) rotate(-8deg); }
+.logo-3d.is-hovered .logo-3d__piece--tr { transform: translate( 26px, -26px) rotate( 8deg); }
+.logo-3d.is-hovered .logo-3d__piece--bl { transform: translate(-26px,  26px) rotate( 8deg); }
+.logo-3d.is-hovered .logo-3d__piece--br { transform: translate( 26px,  26px) rotate(-8deg); }
+.logo-3d.is-hovered .logo-3d__piece img { opacity: 0.26; }
+
+/* Idle pulse */
+@keyframes logo-pulse {
+  0%, 100% { opacity: 0.10; }
+  50%       { opacity: 0.14; }
+}
+.logo-3d__piece img { animation: logo-pulse 5s ease-in-out infinite; }
+
+/* Hero text above logo */
+.hero .container { position: relative; z-index: 1; }
+
+/* ============================================================
    HERO
    ============================================================ */
 .hero {
