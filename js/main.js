@@ -198,23 +198,19 @@
   }
   requestAnimationFrame(tick);
 
-  /* Mouse: 3D tilt + hover detection */
-  hero.addEventListener('mousemove', function (e) {
-    var hr = hero.getBoundingClientRect();
-    var mx = (e.clientX - hr.left) / hr.width  - 0.5;
-    var my = (e.clientY - hr.top)  / hr.height - 0.5;
-    scene.style.transform = 'rotateX(' + (-my * 22) + 'deg) rotateY(' + (mx * 22) + 'deg)';
-
-    var lr  = logo3d.getBoundingClientRect();
-    var over = e.clientX >= lr.left && e.clientX <= lr.right &&
-               e.clientY >= lr.top  && e.clientY <= lr.bottom;
-    if (over !== isHovered) {
-      isHovered = over;
-      logo3d.classList.toggle('is-hovered', over);
+  /* Mouse: 3D tilt sobre el logo, hover detection */
+  logo3d.addEventListener('mousemove', function (e) {
+    var lr = logo3d.getBoundingClientRect();
+    var mx = (e.clientX - lr.left) / lr.width  - 0.5;
+    var my = (e.clientY - lr.top)  / lr.height - 0.5;
+    scene.style.transform = 'rotateX(' + (-my * 18) + 'deg) rotateY(' + (mx * 18) + 'deg)';
+    if (!isHovered) {
+      isHovered = true;
+      logo3d.classList.add('is-hovered');
     }
   });
 
-  hero.addEventListener('mouseleave', function () {
+  logo3d.addEventListener('mouseleave', function () {
     scene.style.transform = 'rotateX(0deg) rotateY(0deg)';
     isHovered = false;
     logo3d.classList.remove('is-hovered');
